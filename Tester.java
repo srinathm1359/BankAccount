@@ -4,6 +4,9 @@ public class Tester {
     BankAccount first_account = new BankAccount(123, "Hello!");
     System.out.println(first_account.getBalance());
     System.out.println(first_account.getAccountID());
+    //Testing deposit()
+    first_account.deposit(12.0);
+    System.out.println(first_account.getBalance());
   }
 
 }
