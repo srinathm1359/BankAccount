@@ -11,6 +11,13 @@ public class Tester {
     System.out.println(first_account.getBalance());
     first_account.deposit(-3.0);
     System.out.println(first_account.getBalance());
+    //Testing withdraw()
+    first_account.withdraw(3.0);
+    System.out.println(first_account.getBalance());
+    first_account.withdraw(12.0);
+    System.out.println(first_account.getBalance());
+    first_account.withdraw(-3.0);
+    System.out.println(first_account.getBalance());
   }
 
 }
