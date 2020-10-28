@@ -7,6 +7,10 @@ public class Tester {
     //Testing deposit()
     first_account.deposit(12.0);
     System.out.println(first_account.getBalance());
+    first_account.deposit(0.0);
+    System.out.println(first_account.getBalance());
+    first_account.deposit(-3.0);
+    System.out.println(first_account.getBalance());
   }
 
 }
