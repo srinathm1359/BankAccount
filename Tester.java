@@ -18,6 +18,8 @@ public class Tester {
     System.out.println(first_account.getBalance());
     first_account.withdraw(-3.0);
     System.out.println(first_account.getBalance());
+    //Testing toString()
+    System.out.println(first_account.toString());
   }
 
 }
