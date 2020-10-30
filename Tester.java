@@ -24,6 +24,17 @@ public class Tester {
     System.out.println(first_account.authenticate("Hello!"));
     System.out.println(first_account.authenticate("World"));
     */
+    BankAccount second_one = new BankAccount(264, "Hi!");
+    //Testing transferTo()
+    System.out.println(second_one.getBalance());
+    first_account.transferTo(second_one, 4.0, "Hello!");
+    System.out.println(second_one.getBalance());
+    first_account.transferTo(second_one, 4.0, "Hey");
+    System.out.println(second_one.getBalance());
+    first_account.transferTo(second_one, 6.0, "Hello!");
+    System.out.println(second_one.getBalance());
+    first_account.transferTo(second_one, 5.0, "Hello!");
+    System.out.println(second_one.getBalance());
   }
 
 }
