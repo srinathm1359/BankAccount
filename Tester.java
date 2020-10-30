@@ -20,6 +20,10 @@ public class Tester {
     System.out.println(first_account.getBalance());
     //Testing toString()
     System.out.println(first_account.toString());
+    /*Testing authenticate()
+    System.out.println(first_account.authenticate("Hello!"));
+    System.out.println(first_account.authenticate("World"));
+    */
   }
 
 }
